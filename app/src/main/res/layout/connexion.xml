@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@drawable/connect_background"
-        android:drawableLeft="@drawable/Googleicon"
+        android:drawableLeft="@drawable/googleicon"
         android:paddingLeft="33dp"
         android:gravity="center_horizontal|center"
         android:text="@string/connect_witgg"
