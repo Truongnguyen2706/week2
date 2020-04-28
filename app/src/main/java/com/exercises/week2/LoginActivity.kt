@@ -4,17 +4,14 @@ import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.login.*
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val intent = Intent(this, ConnexionActivity::class.java)
-        button.setOnClickListener{
-            startActivity(intent)
-        }
+        setContentView(R.layout.login)
+
     }
 
 
