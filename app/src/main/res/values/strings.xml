@@ -9,4 +9,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="validate">Validate</string> //validate button
+    <string name="already_hav">Already have an account ? Login</string> //login
+    <string name="skip_for_no">Skip for now</string> //skip
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_an_a">Create an account</string>
+    <string name="full_name">Full name</string>
 </resources>
