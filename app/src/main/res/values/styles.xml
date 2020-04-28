@@ -130,6 +130,16 @@
         </item>
 
     </style>
+    <style name="let_s_start">
 
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #0001FC
+        </item>
+
+    </style>
 
 </resources>
