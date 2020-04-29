@@ -9,34 +9,19 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="create_an_a">
 
-        Create an account
-    </string>
-    <string name="connexion">
+    <string name="validate">Validate</string>
+    <string name="already_hav">Already have an account ? Login</string>
+    <string name="skip_for_no">Skip for now</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_an_a">Create an account</string>
+    <string name="full_name">Full name</string>
+    <string name="connexion">Connexion</string>
+    <string name="connect_witgg">Connect with Google</string>
+    <string name="connect_witfb">Connect with Facebook</string>
+    <string name="let_s_start">Let\u0027s start</string>
 
-        Connexion
-    </string>
-    <string name="connect_witgg">
-
-        Connect with Google
-    </string>
-    <string name="connect_witfb">
-
-        Connect with Facebook
-    </string>
-    <string name="already_hav">
-
-        Already have an account ? Login
-    </string>
-    <string name="skip_for_no">
-
-        Skip for now
-    </string>
-    <string name="let_s_start">
-
-Let\u0027s start
-</string>
 
 
 
