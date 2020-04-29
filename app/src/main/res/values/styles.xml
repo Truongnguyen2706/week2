@@ -140,6 +140,10 @@
             #0001FC
         </item>
 
+        <item name="android:fontFamily">
+            @font/sf
+        </item>
+
     </style>
 
 </resources>
