@@ -15,6 +15,10 @@ class ConnexionActivity : AppCompatActivity() {
         button2.setOnClickListener{
             startActivity(intent)
         }
+        val intent1 = Intent(this, LoginActivity::class.java)
+        textView2.setOnClickListener{
+            startActivity(intent1)
+        }
     }
 
 
