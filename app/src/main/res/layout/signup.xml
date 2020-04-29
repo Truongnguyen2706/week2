@@ -23,15 +23,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="67dp"
-        android:layout_marginBottom="716dp"
+        android:fontFamily="@font/sf_bold"
         android:gravity="center_horizontal|center"
         android:text="@string/create_an_a"
         android:textAppearance="@style/tcreate_an_a"
-        android:fontFamily="@font/sf_bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/background" />
 
 
     <TextView
@@ -54,7 +52,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/border_textbox"
         android:hint="@string/full_name"
         android:textColorHint="#FFFFFF"
@@ -115,7 +113,7 @@
         android:layout_width="280dp"
         android:layout_height="35dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/border_textbox"
         android:ems="10"
         android:fontFamily="@font/sf_normal"
@@ -143,17 +141,14 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="49dp"
         android:gravity="center_horizontal|center"
         android:text="@string/already_hav"
         android:textAppearance="@style/already_hav"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         tools:visibility="visible" />
@@ -162,16 +157,13 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
         android:layout_marginTop="103dp"
-        android:layout_marginEnd="132dp"
         android:layout_marginBottom="79dp"
         android:gravity="center_horizontal|center"
         android:text="@string/skip_for_no"
         android:textAppearance="@style/skip_for_no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.642" />
