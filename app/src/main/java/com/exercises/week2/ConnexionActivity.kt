@@ -11,7 +11,10 @@ class ConnexionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.connexion)
-
+        val intent = Intent(this, SignUpActivity::class.java)
+        button2.setOnClickListener{
+            startActivity(intent)
+        }
     }
 
 
