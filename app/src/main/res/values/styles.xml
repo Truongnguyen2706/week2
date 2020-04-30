@@ -248,5 +248,60 @@
 
     </style>
 
+    <style name="login">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+        <item name="android:shadowColor">
+            #FFFFFF
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            2
+        </item>
+
+        <item name="android:shadowRadius">
+            80
+        </item>
+
+    </style>
+
+    <style name="don_t_have_">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FBDF00
+        </item>
+
+        <item name="android:shadowColor">
+            #FFFFFF
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            2
+        </item>
+
+        <item name="android:shadowRadius">
+            80
+        </item>
+
+    </style>
 
 </resources>
