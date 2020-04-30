@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
         val intent = Intent(this,SignUpActivity::class.java)
-        button5.setOnClickListener{
+        button3.setOnClickListener{
             startActivity(intent)
         }
     }
