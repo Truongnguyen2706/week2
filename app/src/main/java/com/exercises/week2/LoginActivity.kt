@@ -6,15 +6,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.login.*
+import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
-        val intent = Intent(this,SignUpActivity::class.java)
+        textView5.setOnClickListener{
+            startActivity(Intent(this,SignUpActivity::class.java))
+        }
         button3.setOnClickListener{
-            startActivity(intent)
+            Toast.makeText(this, "Successful!", Toast.LENGTH_LONG).show()
         }
     }
 

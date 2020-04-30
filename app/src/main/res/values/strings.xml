@@ -11,7 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="validate">Validate</string>
-    <string name="already_hav">Already have an account ? Login</string>
+    <string name="already_hav">Already have an account ? <b>Login</b> </string>
     <string name="skip_for_no">Skip for now</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
@@ -25,5 +25,5 @@
     <string name="tech_market">TECH MARKET</string>
     <string name="latech">LATECH</string>
     <string name="login">Login</string>
-    <string name="don_t_have_">Don\u0027t have an account? Sign-up</string>
+    <string name="don_t_have_">Don\u0027t have an account? <b>Sign-up</b> </string>
 </resources>
